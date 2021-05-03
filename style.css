@@ -1,0 +1,36 @@
+.arkaplan{
+    background: black;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+#search1{
+    background-color: transparent;
+    border:none;
+    width:100%;
+    height:100%;
+}
+
+#search2{
+    background-color: #202327;
+    border-radius: 15px;
+    width:100%;
+    height:64%;
+    border:none;
+}
+#search>input:focus{
+    border:5px solid white;
+}
+
+input.search_icon::placeholder{
+
+    background-image: url("./assets/search-solid.svg");
+    background-repeat: no-repeat;
+}
+.fs {
+    width:380px;
+    height:70px;
+}
