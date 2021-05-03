@@ -17,7 +17,7 @@
 #search2{
     background-color: #202327;
     border-radius: 15px;
-    width:100%;
+    width:75%;
     height:64%;
     border:none;
 }
@@ -31,6 +31,6 @@ input.search_icon::placeholder{
     background-repeat: no-repeat;
 }
 .fs {
-    width:380px;
+    width:500px;
     height:70px;
 }
